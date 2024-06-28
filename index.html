@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de Texto</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h1 class="text-center">Ingrese el texto aquí</h1>
+          <textarea
+            id="inputText"
+            class="form-control mt-3"
+            placeholder="Ingresa tu texto aquí..."
+          ></textarea>
+          <div class="actions mt-3 text-center">
+            <button class="btn btn-primary btn-lg mx-2">Encriptar</button>
+            <button class="btn btn-secondary btn-lg mx-2">Desencriptar</button>
+          </div>
+          <p class="note text-center mt-2">
+            <span class="text-muted"
+              >🔒 Solo letras minúsculas y sin acentos</span
+            >
+          </p>
+          <div class="output-section mt-3 p-3">
+            <div id="outputMessage" class="text-center">
+              <p>Ningún mensaje fue encontrado</p>
+              <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+textarea {
+  height: 400px; /* Aumentar la altura del cuadro de texto */
+  font-size: 18px; /* Aumentar el tamaño de la fuente del texto */
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 15px; /* Aumentar el relleno interior del cuadro de texto */
+  width: 100%; /* Asegurar que el cuadro de texto ocupe todo el ancho del contenedor */
+  box-sizing: border-box; /* Incluir el padding y el borde dentro del ancho y la altura */
+}
+
+.actions button {
+  margin-top: 10px;
+  border-radius: 25px;
+  padding: 15px 30px; /* Aumentar el tamaño de los botones */
+  font-size: 18px; /* Aumentar el tamaño de la fuente de los botones */
+}
+
+.output-section {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.output-section p {
+  color: #2d3e50;
+}
+
+.note {
+  font-size: 16px; /* Aumentar el tamaño de la nota */
+  color: #fff;
+}
